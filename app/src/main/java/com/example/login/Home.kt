@@ -18,6 +18,6 @@ class Home : AppCompatActivity() {
         val name = mIntent.getStringExtra("name")
         val pass = mIntent.getStringExtra("pass")
 
-        lblMessage.text = "Hi ${name} you had been sent information without know why, your password is: '${pass}' see you!"
+        lblMessage.text = "Hi ${name} you had sent your information without know why, your password is: '${pass}' see you!"
     }
 }
